@@ -34,3 +34,6 @@
 # Make sure R8/Proguard don't break things
 -keep,allowobfuscation class * extends com.topjohnwu.superuser.Shell$Initializer { *; }
 -keep,allowobfuscation class * extends com.topjohnwu.superuser.ipc.RootService { *; }
+-keep class com.topjohnwu.superuser.Shell$Job
+-keep class com.topjohnwu.superuser.Shell$Result
+-keep class com.topjohnwu.superuser.Shell
